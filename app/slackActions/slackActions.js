@@ -18,6 +18,11 @@ angular
 
     $scope.expand = function(id) {
         $scope.hideMsg[id] = false;
+        window.setTimeout(function ()
+       {
+           console.log(document.getElementById(id).getElementsByClassName("msgInput")[0]);
+           document.getElementById(id).getElementsByClassName("msgInput")[0].focus();
+       }, 0);
     }
 
     $scope.sendMsg = function(id, name) {
