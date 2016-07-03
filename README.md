@@ -7,7 +7,7 @@ This projects provides the logic to integrate an app into your Slack and send me
 
 To get you started you can simply clone or download the repository and install the dependencies:
 
-### Prerequisites
+## Prerequisites
 
 ### Install Dependencies
 
@@ -32,5 +32,3 @@ npm start
 ```
 
 Now browse to the app at `http://localhost:8000/` and start sending messages to Slack through this app.
-
-# SlackIntegration

@@ -42,7 +42,7 @@ angular
                 return response.json();
             })
             .then(function(data){
-                console.log(data);
+        //         console.log(data);
                 $scope.$apply(function() {
                     if (data.ok) {
                         $scope.success = "Message sent successfuly to " + name;

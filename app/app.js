@@ -2,7 +2,7 @@
 
 angular
   .module('PitchEvaluator', ['ngRoute'])
-  .config(function($routeProvider) {
+  .config(function($routeProvider, $locationProvider) {
     $routeProvider
       .when('/login', {
         templateUrl: 'login/login.html',
@@ -22,4 +22,6 @@ angular
       .otherwise({
         redirectTo: 'login'
       });
+
+      $locationProvider.html5Mode(true);
   });

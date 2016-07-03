@@ -65,11 +65,9 @@
 }
 
 #logoutContainer {
-    margin-top: 7vh;
+    margin-top: 10vh;
 }
 #logoutBtn {
-    /*height: 25px;
-    width: 100px;*/
     font-size: 1.1em;
     background-color: white;
     border: 1px solid #ff6666;
