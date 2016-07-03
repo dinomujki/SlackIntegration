@@ -1,0 +1,81 @@
+#channelsContainer {
+    min-width: 200px;
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.imgContainer {
+    display: inline-block;
+    vertical-align: top;
+    width: 10%;
+    height: auto;
+}
+
+.imgContainer img {
+    width: 100%;
+    height: auto;
+}
+
+
+.channel {
+    text-align: left;
+    border-top: 1px black solid;
+    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.channel:hover {
+    background-color: #e6f5ff;
+}
+
+.channelInfo {
+    display: inline-block;
+    width: 85%;
+    margin-left: 4%;
+}
+
+.msgInput {
+    width: 80%;
+}
+
+.sendMsgBtn {
+    margin-top: 15px;
+    background-color: white;
+    color: #0059b3;
+    font-size: 1em;
+    border: 1px solid #66c2ff;
+}
+.sendMsgBtn:hover {
+    background-color: #66c2ff;
+    color:white;
+}
+
+.sendMsgContainer {
+    margin-top: 15px;
+}
+
+.error {
+    color: red;
+}
+.success {
+    color: green;
+}
+
+#logoutContainer {
+    margin-top: 7vh;
+}
+#logoutBtn {
+    /*height: 25px;
+    width: 100px;*/
+    font-size: 1.1em;
+    background-color: white;
+    border: 1px solid #ff6666;
+    color: #ff6666;
+}
+#logoutBtn:hover {
+    background-color: #ff6666;
+    color: white;
+}

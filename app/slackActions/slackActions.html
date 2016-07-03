@@ -1,0 +1,27 @@
+<div id="slackContainer">
+    <div id="channelsContainer" ng-hide="hideChannels">
+        <h2>You can now send messages to these channels:</h2>
+        <p class="error" ng-show="showError">*{{error}}</p>
+        <p class="success" ng-show="showSuccess">*{{success}}</p>
+        <div class="channel" ng-repeat="channel in channels">
+            <div class="imgContainer">
+                <img src="../img/default_icon.png" alt=""/>
+            </div>
+            <div class="channelInfo">
+                <b>{{channel.name}}</b><br>
+                <i>Purpose</i>: {{channel.purpose.value}}<br>
+                <i>Topic</i>: {{channel.topic.value}}<br>
+                <button class="sendMsgBtn" ng-click="expand(channel.id)" ng-show="hideMsg[channel.id]">Click to send a message</button>
+                <div class="sendMsgContainer" ng-hide="hideMsg[channel.id]">
+                    <input class="msgInput" type="text" ng-model="msg[channel.id]">
+                    <button class="sendMsgBtn" ng-click="sendMsg(channel.id, channel.name)">Send</button>
+                </div>
+            </div>
+        </div>
+        <div id="logoutContainer">
+            <button id="logoutBtn" ng-click="logout()">Logout</button>
+        </div>
+
+    </div>
+
+</div>

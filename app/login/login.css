@@ -1,0 +1,12 @@
+#loginContainer {
+    min-width: 172px;
+    width: 100%;
+    text-align: center;
+}
+
+#slackSignInDiv {
+    width: 172px;
+    height: auto;
+    margin:0 auto;
+    margin-top: 5vh;
+}
