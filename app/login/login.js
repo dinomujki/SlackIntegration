@@ -1,6 +1,6 @@
 'use strict';
 angular
-  .module('PitchEvaluator')
+  .module('SlackIntegration')
   .controller('LoginCtrl', function($location) {
     if (localStorage.slackIntegrationToken) {
         var token = localStorage.slackIntegrationToken;

@@ -1,6 +1,6 @@
 'use strict';
 angular
-  .module('PitchEvaluator')
+  .module('SlackIntegration')
   .controller('SlackActionsCtrl', function($scope, $location) {
     $scope.channels = null;
     $scope.message = null;

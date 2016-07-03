@@ -1,7 +1,7 @@
 'use strict';
 
 angular
-  .module('PitchEvaluator', ['ngRoute'])
+  .module('SlackIntegration', ['ngRoute'])
   .config(function($routeProvider, $locationProvider) {
     $routeProvider
       .when('/login', {
